@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "0AD7EEBF-D39E-4024-B282-919F22C30222"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "95B3830A-3E05-4E72-AD0D-D1B11F23A1DF"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "tanmayChandraNathNearbyMockApp/HomeScreen/ViewModel/HomeScreenViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "55"
+            endingLineNumber = "55"
+            landmarkName = "fetchData(networkRequestData:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "95B3830A-3E05-4E72-AD0D-D1B11F23A1DF - 873d535651d53533"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;tanmayChandraNathNearbyMockApp.HomeScreenLocationListModel, tanmayChandraNathNearbyMockApp.NetworkError&gt;) -&gt; () in tanmayChandraNathNearbyMockApp.HomeScreenViewModel.fetchData(networkRequestData: tanmayChandraNathNearbyMockApp.NetworkRequestDataModel) -&gt; ()"
+                  moduleName = "tanmayChandraNathNearbyMockApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tanmaychandranath/Desktop/Trys/tanmayChandraNathNearbyMockApp/tanmayChandraNathNearbyMockApp/HomeScreen/ViewModel/HomeScreenViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55"
+                  offsetFromSymbolStart = "240">
+               </Location>
+               <Location
+                  uuid = "95B3830A-3E05-4E72-AD0D-D1B11F23A1DF - 873d535651d53533"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;tanmayChandraNathNearbyMockApp.HomeScreenLocationListModel, tanmayChandraNathNearbyMockApp.NetworkError&gt;) -&gt; () in tanmayChandraNathNearbyMockApp.HomeScreenViewModel.fetchData(networkRequestData: tanmayChandraNathNearbyMockApp.NetworkRequestDataModel) -&gt; ()"
+                  moduleName = "tanmayChandraNathNearbyMockApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tanmaychandranath/Desktop/Trys/tanmayChandraNathNearbyMockApp/tanmayChandraNathNearbyMockApp/HomeScreen/ViewModel/HomeScreenViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55"
+                  offsetFromSymbolStart = "268">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DF62B0F5-C1DA-49A5-9552-B4E44FA7DAF0"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "tanmayChandraNathNearbyMockApp/HomeScreen/ViewModel/HomeScreenViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
+            landmarkName = "fetchData(networkRequestData:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

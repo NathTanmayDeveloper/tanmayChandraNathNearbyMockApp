@@ -17,11 +17,11 @@ struct NetworkConstants {
     let baseUrl = "https://api.seatgeek.com/2/venues?"
     let perPage = "per_page="
     let page = "page="
-    let clientId = "client_id"
-    let lat = "lat"
-    let lon = "lon"
-    let range = "range"
-    let query = "q"
+    let clientId = "client_id="
+    let lat = "lat="
+    let lon = "lon="
+    let range = "range="
+    let query = "q="
 }
 
 

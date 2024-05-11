@@ -20,6 +20,8 @@
 		09BADFB82BEF601900D83038 /* NetworkCallHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09BADFB72BEF601900D83038 /* NetworkCallHelper.swift */; };
 		09BADFBB2BEF604800D83038 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09BADFBA2BEF604800D83038 /* Constants.swift */; };
 		09BADFBD2BEF60D900D83038 /* HomeScreenLocationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09BADFBC2BEF60D900D83038 /* HomeScreenLocationModel.swift */; };
+		09BADFC02BEF705900D83038 /* LocationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09BADFBE2BEF705900D83038 /* LocationTableViewCell.swift */; };
+		09BADFC12BEF705900D83038 /* LocationTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09BADFBF2BEF705900D83038 /* LocationTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +59,8 @@
 		09BADFB72BEF601900D83038 /* NetworkCallHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkCallHelper.swift; sourceTree = "<group>"; };
 		09BADFBA2BEF604800D83038 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		09BADFBC2BEF60D900D83038 /* HomeScreenLocationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenLocationModel.swift; sourceTree = "<group>"; };
+		09BADFBE2BEF705900D83038 /* LocationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationTableViewCell.swift; sourceTree = "<group>"; };
+		09BADFBF2BEF705900D83038 /* LocationTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LocationTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,7 +116,6 @@
 				09BADFAF2BEF5C8C00D83038 /* HomeScreen */,
 				09BADF7F2BEF5C1500D83038 /* AppDelegate.swift */,
 				09BADF812BEF5C1500D83038 /* SceneDelegate.swift */,
-				09BADF832BEF5C1500D83038 /* HomeScreenViewController.swift */,
 				09BADF882BEF5C1600D83038 /* Assets.xcassets */,
 				09BADF8A2BEF5C1600D83038 /* LaunchScreen.storyboard */,
 				09BADF8D2BEF5C1600D83038 /* Info.plist */,
@@ -150,7 +153,10 @@
 		09BADFB02BEF5C9600D83038 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				09BADF832BEF5C1500D83038 /* HomeScreenViewController.swift */,
 				09BADF852BEF5C1500D83038 /* Main.storyboard */,
+				09BADFBE2BEF705900D83038 /* LocationTableViewCell.swift */,
+				09BADFBF2BEF705900D83038 /* LocationTableViewCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -293,6 +299,7 @@
 			files = (
 				09BADF8C2BEF5C1600D83038 /* LaunchScreen.storyboard in Resources */,
 				09BADF892BEF5C1600D83038 /* Assets.xcassets in Resources */,
+				09BADFC12BEF705900D83038 /* LocationTableViewCell.xib in Resources */,
 				09BADF872BEF5C1500D83038 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -320,6 +327,7 @@
 			files = (
 				09BADF842BEF5C1500D83038 /* HomeScreenViewController.swift in Sources */,
 				09BADFB52BEF5FFD00D83038 /* HomeScreenViewModel.swift in Sources */,
+				09BADFC02BEF705900D83038 /* LocationTableViewCell.swift in Sources */,
 				09BADF802BEF5C1500D83038 /* AppDelegate.swift in Sources */,
 				09BADF822BEF5C1500D83038 /* SceneDelegate.swift in Sources */,
 				09BADFB82BEF601900D83038 /* NetworkCallHelper.swift in Sources */,

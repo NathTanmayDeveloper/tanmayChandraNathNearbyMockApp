@@ -14,12 +14,12 @@ protocol HomeScreenViewControllerProtocol: AnyObject {
 }
 
 class HomeScreenViewModel {
-    var numberOfPage = 1
-    var range = UiConstants().defaultRange
-    var query: String?
+    private var numberOfPage = 1
+    private var range = UiConstants().defaultRange
+    private var query: String?
     var fetchedData: HomeScreenLocationListModel?
-    var latitude: Double?
-    var longitude: Double?
+    private var latitude: Double?
+    private var longitude: Double?
     
     func incrementCurrentPage() {
         numberOfPage += 1
@@ -47,7 +47,7 @@ class HomeScreenViewModel {
         }
     }
     
-    func fetchData(networkRequestData: NetworkRequestDataModel) {
+    private func fetchData(networkRequestData: NetworkRequestDataModel) {
         self.delegate?.startedFetchingData()
         NetworkCallHelper().getLocations(params: networkRequestData) {[weak self] (result: Result<HomeScreenLocationListModel, NetworkError>) in
             guard let self = self else {return}
@@ -62,13 +62,13 @@ class HomeScreenViewModel {
         }
     }
     
-    func fetchLocation() -> Result<(Double, Double), Error>{
+    private func fetchLocation() -> Result<(Double, Double), Error>{
         /// Code for fetching user's location
         
-        return (.success((79.12, 80.12)))
+        return (.success((12.971599, 77.594566)))
     }
     
-    var networkRequestData: NetworkRequestDataModel {
+   private var networkRequestData: NetworkRequestDataModel {
         NetworkRequestDataModel(numberOfItemsPerPage: UiConstants().numberOfItemsPerPage, numberOfPage: self.numberOfPage, latitude: latitude!, longitude: longitude!, range: range, query: query, clientId: UiConstants().clientId)
     }
 }
