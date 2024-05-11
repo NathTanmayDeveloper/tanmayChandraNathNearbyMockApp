@@ -10,7 +10,7 @@ import Foundation
 struct UiConstants {
     let clientId = "Mzg0OTc0Njl8MTcwMDgxMTg5NC44MDk2NjY5"
     let defaultRange = 5.0
-    let numberOfItemsPerPage = 10
+    let numberOfItemsPerPage = 20
 }
 
 struct NetworkConstants {
