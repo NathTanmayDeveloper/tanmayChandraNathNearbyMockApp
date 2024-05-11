@@ -16,8 +16,8 @@ struct HomeScreenLocationModel: Decodable {
 }
 
 struct NetworkRequestDataModel {
-    let numberOfItemsPerPage, numberOfPage, range: Int
-    let latitude, longitude: Double
+    let numberOfItemsPerPage, numberOfPage: Int
+    let latitude, longitude, range: Double
     let query: String?
     let clientId: String
 }

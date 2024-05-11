@@ -52,7 +52,7 @@ class NetworkCallHelper: NetworkCallHelperProtocol {
 struct NetworkRequestHelper {
     func createUrl(params: NetworkRequestDataModel) -> URL? {
         let constants = NetworkConstants()
-        let urlString = "\(constants.baseUrl)\(constants.perPage)\(params.numberOfItemsPerPage)&\(constants.page)\(params.numberOfPage)&\(constants.clientId)\(params.clientId)&\(constants.lat)\(params.latitude)&\(constants.lon)\(params.longitude)&\(constants.range)\(params.range)&\(constants.query)\(params.query ?? "")"
+        let urlString = "\(constants.baseUrl)\(constants.perPage)\(params.numberOfItemsPerPage)&\(constants.page)\(params.numberOfPage)&\(constants.clientId)\(params.clientId)&\(constants.lat)\(params.latitude)&\(constants.lon)\(params.longitude)&\(constants.range)\(params.range)mi&\(constants.query)\(params.query ?? "")"
         return URL(string: urlString)
     }
 }
