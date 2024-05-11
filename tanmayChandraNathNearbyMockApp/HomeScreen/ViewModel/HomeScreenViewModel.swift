@@ -31,6 +31,11 @@ class HomeScreenViewModel {
         fetchData(networkRequestData: networkRequestData)
     }
     
+    func updateQuery(newQuery: String) {
+        query = newQuery
+        fetchData(networkRequestData: networkRequestData)
+    }
+    
     
     weak var delegate: HomeScreenViewControllerProtocol?
     

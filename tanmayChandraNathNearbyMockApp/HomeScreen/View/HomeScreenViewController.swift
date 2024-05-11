@@ -23,9 +23,21 @@ class HomeScreenViewController: UIViewController {
         tableView.register(UINib(nibName: "LocationTableViewCell", bundle: nil), forCellReuseIdentifier: "LocationTableViewCell")
         tableView.dataSource = self
         viewModel.delegate = self
+        searchBar.delegate = self
         // Do any additional setup after loading the view.
     }
-
+    
+    @IBAction func sliderValueChanged(_ sender: Any) {
+        viewModel.updateRange(newRange: Double(radiusSlider.value))
+        updateText()
+    }
+    
+    func updateText() {
+        DispatchQueue.main.async {
+            self.radiusText.text = "Restaurants within \(self.radiusSlider.value) Kms of of current Location"
+        }
+    }
+    
     
     func showLoader() {
         loaderView.isHidden = false
@@ -73,4 +85,11 @@ extension HomeScreenViewController: UITableViewDataSource {
     }
     
     
+}
+
+
+extension HomeScreenViewController: UISearchBarDelegate {
+    func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
+        self.viewModel.updateQuery(newQuery: searchText)
+    }
 }
